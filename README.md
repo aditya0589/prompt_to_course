@@ -14,6 +14,10 @@
 
 ---
 
+View the deployed app here : https://prompt-to-course.streamlit.app/
+
+---
+
 ## Tech Stack
 
 - **Language:** Python  
