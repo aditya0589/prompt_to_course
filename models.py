@@ -1,5 +1,8 @@
 from sqlalchemy import create_engine, Column, Integer, String, Text, ForeignKey
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
+import os
+import tempfile
+
 
 Base = declarative_base()
 
@@ -20,6 +23,8 @@ class Plan(Base):
     user = relationship("User", back_populates="plans")
 
 # DB setup
-engine = create_engine("sqlite:///local.db")
+
+db_path = os.path.join(tempfile.gettempdir(), "local.db")
+engine = create_engine(f"sqlite:///{db_path}")
 Base.metadata.create_all(engine)
 SessionLocal = sessionmaker(bind=engine)
