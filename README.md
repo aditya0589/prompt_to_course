@@ -1,6 +1,6 @@
-# Prompt-to-Course Generator
+# Prompt-to-Course 
 
-**Prompt-to-Course Generator** is an AI-powered web application that transforms user prompts into detailed, multi-topic course outlines. Built with **Streamlit** and **Meta’s LLaMA model served via Groq API**, it empowers learners, educators, and curriculum designers to generate personalized learning paths instantly.
+**Prompt-to-Course ** is an AI-powered web application that transforms user prompts into detailed, multi-topic course outlines. Built with **Streamlit** and **Meta’s LLaMA model served via Groq API**, it empowers learners, educators, and curriculum designers to generate personalized learning paths instantly.
 
 ---
 
