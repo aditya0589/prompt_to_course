@@ -1,20 +1,20 @@
-# 🚀 Prompt-to-Course Generator
+# Prompt-to-Course Generator
 
 **Prompt-to-Course Generator** is an AI-powered web application that transforms user prompts into detailed, multi-topic course outlines. Built with **Streamlit** and **Meta’s LLaMA model served via Groq API**, it empowers learners, educators, and curriculum designers to generate personalized learning paths instantly.
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Converts plain natural language prompts into structured course outlines  
-- ✅ Generates multi-module, multi-topic educational content  
-- ✅ Fast and lightweight UI using Streamlit  
-- ✅ Powered by Groq’s high-speed LLaMA model API  
-- ✅ Easily extendable for exporting or curriculum publishing  
+-  Converts plain natural language prompts into structured course outlines  
+-  Generates multi-module, multi-topic educational content  
+-  Fast and lightweight UI using Streamlit  
+-  Powered by Groq’s high-speed LLaMA model API  
+-  Easily extendable for exporting or curriculum publishing  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python  
 - **Frontend/UI:** Streamlit  
@@ -27,7 +27,7 @@
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository:**
    ```bash
@@ -61,13 +61,13 @@
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The app sends your prompt to Groq's hosted **LLaMA model**, which returns a structured response formatted into a human-readable course outline.  
 It’s designed to be fast, adaptable, and extensible to future LLM providers or learning models.
 
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome!  
 To suggest a feature, improvement, or report a bug, please open an issue.
