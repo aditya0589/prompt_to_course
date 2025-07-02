@@ -1,0 +1,8 @@
+langchain
+langchain_groq
+langchain_community
+langchainhub
+streamlit
+python_dotenv
+Authlib
+bcrypt
